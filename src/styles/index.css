@@ -10,3 +10,74 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.navbar{
+    background: #525864;
+    font-weight:500;
+}
+
+.navbar a{
+    color: rgb(236, 235, 235);
+}
+
+.nav-link active{
+    color: white;
+}
+
+
+.nav-link:focus, .nav-link:hover {
+    color: white;
+    font-weight: 700;
+}
+
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid rgb(236, 235, 235);
+    border-radius: 0.25rem;
+    transition: box-shadow .15s ease-in-out;
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+nav svg {
+    vertical-align: baseline;
+    color: rgb(236, 235, 235);
+    
+}
+
+.h5jumbotron{
+    font-size: 5em;
+    font-weight: 300;
+    
+}
+
+.card{
+    width: 100%;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+.card{
+    
+    justify-content: center;
+    
+}
+
+#jumbotron{
+    
+    margin-top: 80px;
+}
+
